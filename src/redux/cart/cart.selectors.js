@@ -21,4 +21,5 @@ export const selectCartItemsCount = createSelector(
                 accumalatedQuantity + cartItem.quantity,
             0
         )
-);
+
+        );
