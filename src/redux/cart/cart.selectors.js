@@ -21,6 +21,7 @@ export const selectCartItemsCount = createSelector(
                 accumalatedQuantity + cartItem.quantity,
             0
         )
+<<<<<<< HEAD
 );
 
 export const selectCartTotal = createSelector(
@@ -32,3 +33,7 @@ export const selectCartTotal = createSelector(
         0
     )
 )
+=======
+
+        );
+>>>>>>> c49221df169d101da0e1736ffc868c5c10f91572
