@@ -47,6 +47,7 @@ export const CustomButtonContainer = styled.button`
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
+  text-align: center;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
   font-weight: bolder;
