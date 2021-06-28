@@ -5,6 +5,8 @@ export const CartItemContainer = styled.div`
   display: flex;
   height: 80px;
   margin-bottom: 15px;
+  justify-content: center;
+
 `;
 
 export const CartItemImage = styled.img`
@@ -16,6 +18,10 @@ export const ItemDetailsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
   padding: 10px 20px;
+
+  
+  @media screen and (max-width: 800px) {
+    
+  }
 `;
