@@ -27,7 +27,6 @@ const firebaseConfig  = {
     storageBucket: "ecom-project-cfd63.appspot.com",
     messagingSenderId: "933228427459",
     appId: "1:933228427459:web:139fb300c0538444f70a76",
-    measurementId: "G-MV2GYERR6V",
   };
 
   const firebaseApp = initializeApp(firebaseConfig);
