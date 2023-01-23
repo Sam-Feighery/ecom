@@ -1,0 +1,9 @@
+[dev]
+  command = "npm start"
+  port = 3000
+  targetPort = 8888
+  publish = "dist"
+  jwtRolePath = "app_metadata.authorization.roles"
+  jwtSecret = "MY_JWT_SECRET_VALUE"
+  autoLaunch = true
+  framework = "#custom"
